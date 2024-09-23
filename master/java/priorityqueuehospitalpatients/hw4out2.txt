@@ -1,0 +1,20 @@
+patientArrives 0800 Zoey 1
+doctorStartsTreatingPatient 0800 Alice Zoey
+patientArrives 0801 Yan 2
+doctorStartsTreatingPatient 0801 Bob Yan
+patientArrives 0805 Xavi 3
+patientArrives 0806 Wade 4
+patientArrives 0808 Victor 2
+patientArrives 0811 Uriah 2
+doctorArrives 0816 Carol
+doctorStartsTreatingPatient 0816 Carol Victor
+doctorFinishesTreatmentAndPatientDeparts 0817 Bob Yan
+doctorStartsTreatingPatient 0817 Bob Uriah
+doctorArrives 0820 David
+doctorStartsTreatingPatient 0820 David Xavi
+doctorFinishesTreatmentAndPatientDeparts 0828 David Xavi
+doctorStartsTreatingPatient 0828 David Wade
+doctorFinishesTreatmentAndPatientDeparts 0832 Alice Zoey
+doctorFinishesTreatmentAndPatientDeparts 0832 Carol Victor
+doctorFinishesTreatmentAndPatientDeparts 0832 David Wade
+doctorFinishesTreatmentAndPatientDeparts 0833 Bob Uriah

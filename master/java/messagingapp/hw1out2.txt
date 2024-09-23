@@ -1,0 +1,49 @@
+NotifyUser Bob
+NotifyUser Alice
+NotifyUser Carol
+NotifyUser Carol
+NotifyUser Carol
+NotifyUser Alice
+NotifyUser Alice
+OpenApp
+Alice 3
+Bob 1
+Carol 3
+DisplayConversation Bob
+190004 Bob What class you take this semester?
+DisplayConversation Carol
+180145 Carol I like movie.
+182012 Carol Especially the superhero movie.
+203039 Carol Will you come to my house tomorrow morning?
+DisplayConversation Alice
+180035 Alice Have you had your dinner?
+180327 Alice I found a good restaurant.
+180721 Alice Do you want to try?
+SendMessage 203155 Bob Data Structures.
+190004 Bob What class you take this semester?
+203155 me Data Structures.
+SendMessage 203226 Alice Sorry I didn't see your message.
+180035 Alice Have you had your dinner?
+180327 Alice I found a good restaurant.
+180721 Alice Do you want to try?
+203226 me Sorry I didn't see your message.
+SendMessage 203311 Alice We can go there tomorrow.
+180035 Alice Have you had your dinner?
+180327 Alice I found a good restaurant.
+180721 Alice Do you want to try?
+203226 me Sorry I didn't see your message.
+203311 me We can go there tomorrow.
+DeleteMessage 203155 Bob
+190004 Bob What class you take this semester?
+DeleteMessage 190004 Bob
+DeleteMessage 180721 Alice
+180035 Alice Have you had your dinner?
+180327 Alice I found a good restaurant.
+203226 me Sorry I didn't see your message.
+203311 me We can go there tomorrow.
+DeleteMessage 203039 Carol
+180145 Carol I like movie.
+182012 Carol Especially the superhero movie.
+DeleteMessage 180145 Carol
+182012 Carol Especially the superhero movie.
+CloseApp

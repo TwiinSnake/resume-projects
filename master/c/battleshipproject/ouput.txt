@@ -1,0 +1,101 @@
+
+Map
+
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+5 shots remaining.
+Captain, please enter coordinates: 2 3
+MISS!
+
+Map
+
+~~~~~~~
+~~~~~~~
+~~~M~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+4 shots remaining.
+Captain, please enter coordinates: 2 0
+HIT!
+
+Map
+
+~~~~~~~
+~~~~~~~
+H~~M~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+3 shots remaining.
+Captain, please enter coordinates: 2 0
+
+Map
+
+~~~~~~~
+~~~~~~~
+H~~M~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+~~~~~~~
+3 shots remaining.
+Captain, please enter coordinates: 99 99
+Out of range
+3 shots remaining.
+Captain, please enter coordinates: 5 2
+MISS!
+
+Map
+
+~~~~~~~
+~~~~~~~
+H~~M~~~
+~~~~~~~
+~~~~~~~
+~~M~~~~
+~~~~~~~
+~~~~~~~
+2 shots remaining.
+Captain, please enter coordinates: 5 3
+MISS!
+
+Map
+
+~~~~~~~
+~~~~~~~
+H~~M~~~
+~~~~~~~
+~~~~~~~
+~~MM~~~
+~~~~~~~
+~~~~~~~
+1 shots remaining.
+Captain, please enter coordinates: 7 7
+Out of range
+1 shots remaining.
+Captain, please enter coordinates: 4 2
+MISS!
+
+Map
+
+~~~~~~~
+~~~~~~~
+H~~M~~~
+~~~~~~~
+~~M~~~~
+~~MM~~~
+~~~~~~~
+~~~~~~~
+Captain, we ran out of ammo. You lose!

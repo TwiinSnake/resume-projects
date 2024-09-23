@@ -1,0 +1,20 @@
+AddEvent 010108 breakfast
+AddEvent 010118 dinner
+AddEvent 010110 mathTest
+AddEvent 010112 lunch
+AddEvent 010116 running
+AddEvent 010109 mathTest
+PrintSkipList
+(S3) empty
+(S2) 010112:lunch
+(S1) 010109:mathTest 010112:lunch 010118:dinner
+(S0) 010108:breakfast 010109:mathTest 010110:mathTest 010112:lunch 010116:running 010118:dinner
+CancelEvent 010109
+GetEvent 010110 mathTest
+GetEvent 010118 dinner
+GetEvent 010116 running
+PrintSkipList
+(S3) empty
+(S2) 010112:lunch
+(S1) 010112:lunch 010118:dinner
+(S0) 010108:breakfast 010110:mathTest 010112:lunch 010116:running 010118:dinner

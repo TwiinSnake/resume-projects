@@ -1,0 +1,9 @@
+ReceiveMessage 071211 Alice I found a new restaurant.
+ReceiveMessage 071022 Alice Hello.
+ReceiveMessage 071333 Alice Do you want to try?
+OpenApp
+DisplayConversation Alice
+SendMessage 071544 Alice Sure. When?
+DeleteMessage 071022 Alice
+DeleteMessage 071333 Alice
+CloseApp

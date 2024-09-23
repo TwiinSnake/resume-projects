@@ -1,0 +1,32 @@
+AddEvent 010108 breakfast
+AddEvent 010308 breakfast
+AddEvent 010208 breakfast
+AddEvent 010320 movie
+AddEvent 010110 fluShot
+AddEvent 010312 lunch
+AddEvent 010206 running
+AddEvent 010311 videoGames
+AddEvent 010212 restaurant
+AddEvent 010315 meeting
+AddEvent 010306 swimming
+AddEvent 010108 running ExistingEventError:breakfast
+PrintSkipList
+(S4) empty
+(S3) 010311:videoGames
+(S2) 010311:videoGames 010320:movie
+(S1) 010308:breakfast 010311:videoGames 010312:lunch 010315:meeting 010320:movie
+(S0) 010108:breakfast 010110:fluShot 010206:running 010208:breakfast 010212:restaurant 010306:swimming 010308:breakfast 010311:videoGames 010312:lunch 010315:meeting 010320:movie
+CancelEvent 010109 NoEventError
+GetEvent 010109 none
+GetEventsBetweenTimes 010110 010210 010110:fluShot 010206:running 010208:breakfast
+GetEventsForOneDay 0103 010306:swimming 010308:breakfast 010311:videoGames 010312:lunch 010315:meeting 010320:movie
+GetEventsForTheRestOfTheDay 010310 010311:videoGames 010312:lunch 010315:meeting 010320:movie
+GetEventsFromEarlierInTheDay 010312 010306:swimming 010308:breakfast 010311:videoGames 010312:lunch
+CancelEvent 010311 videoGames
+CancelEvent 010110 fluShot
+CancelEvent 010306 swimming
+PrintSkipList
+(S3) empty
+(S2) 010320:movie
+(S1) 010308:breakfast 010312:lunch 010315:meeting 010320:movie
+(S0) 010108:breakfast 010206:running 010208:breakfast 010212:restaurant 010308:breakfast 010312:lunch 010315:meeting 010320:movie

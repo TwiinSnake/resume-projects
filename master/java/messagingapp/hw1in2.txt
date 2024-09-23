@@ -1,0 +1,20 @@
+ReceiveMessage 190004 Bob What class you take this semester?
+ReceiveMessage 180327 Alice I found a good restaurant.
+ReceiveMessage 180145 Carol I like movie.
+ReceiveMessage 203039 Carol Will you come to my house tomorrow morning?
+ReceiveMessage 182012 Carol Especially the superhero movie.
+ReceiveMessage 180721 Alice Do you want to try?
+ReceiveMessage 180035 Alice Have you had your dinner?
+OpenApp
+DisplayConversation Bob
+DisplayConversation Carol
+DisplayConversation Alice
+SendMessage 203155 Bob Data Structures.
+SendMessage 203226 Alice Sorry I didn't see your message.
+SendMessage 203311 Alice We can go there tomorrow.
+DeleteMessage 203155 Bob
+DeleteMessage 190004 Bob
+DeleteMessage 180721 Alice
+DeleteMessage 203039 Carol
+DeleteMessage 180145 Carol
+CloseApp
